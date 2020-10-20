@@ -68,8 +68,9 @@ GridSearchCV
 
 Feature Importance
 
-
 <img src="Feature.png">
+
+Feature Importance Continued (SHAP)
 
 <img src="SHAP.png">
 
