@@ -79,10 +79,10 @@ Feature Importance Continued (SHAP)
 
 Following the exploration of the dataset we can conclude on a few things. That our model performed very well. We found a 60% accuracy using our random forests model, a 95% accuracy after apply XGB Boost and finally a 93% accuracy with our gridsearch parameters. The other important result we wanted to look at was Recall. After reviewing the information we can confirm that the top 5 most important features are:
 
-- International Plan Number (more likely to churn)
+- International Plan Number (less likely to churn)
 - Total International Calls (less likely to churn)
 - Total International Minutes (less likely to churn)
 - Customer Service Calls (more likely to churn)
-- Voicemail Plan (more likely to churn)
+- Voicemail Plan (less likely to churn)
 
-Moving forward, we recommend that our telecommunications client looks into the payment plan that goes into their international plan. Those who do have an international plan and have higher minutes and calls are less likely to churn. But those who do not use it as frequently as the others have been found to churn more frequently. We'd recommend looking at different pricing options for lower minute / call volumes from users. I'd recommend reducing the amount of customer service calls. The customers problems should be solved by the first or second call. The more calls they make the higher the likelihood there is of this customer churning. Finally with the voicemail plan we'd recommend looking into the pricing plan with this as well. We found that there were a higher amount of people who churned while under the plan.
+Moving forward, we recommend that our telecommunications client looks into the increasing the payment plan that goes into their international plan. We found that those who do have it are less likely to churn, so there may be an opportunity to make more money. Those who do have an international plan and have higher minutes and calls are less likely to churn. But those who do not use it as frequently as the others have been found to churn more frequently. We'd recommend looking at different pricing options for lower minute / call volumes from users. I'd recommend reducing the amount of customer service calls. The customers problems should be solved by the first or second call. The more calls they make the higher the likelihood there is of this customer churning. Finally with the voicemail plan we'd recommend looking into the pricing plan as well. There is another opportunity here to lift prices and potentially make more money.
