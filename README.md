@@ -53,25 +53,25 @@ I chose to use a total of 3 models. Random Forests, XGB and Gridsearch. As we ex
 
 Random Forests
 
-<img src="images/RF.png">
+<img src="RF.png">
 
 
 XGB
 
-<img src="images/XGB.png">
+<img src="XGB.png">
 
 
 GridSearchCV
 
-<img src="images/Gridsearch.png">
+<img src="Gridsearch.png">
 
 
 Feature Importance
 
 
-<img src="images/Feature.png">
+<img src="Feature.png">
 
-<img src="images/SHAP.png">
+<img src="SHAP.png">
 
 
 ## Interpreting the Data
